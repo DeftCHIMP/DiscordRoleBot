@@ -21,7 +21,7 @@ def keep_alive():
 
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE" 
+BOT_TOKEN = "MTQzMjM0MzQ1NjE4MDg2NzA3Mw.G9YRH7.Ta0B3BBzgCUct6Br4hVBvLMkU9ErDxUhniYkr8" 
 ROLE1_ID = YOUR_ROLE1_ID_HERE 
 ROLE2_ID = YOUR_ROLE2_ID_HERE
 ROLE3_ID = YOUR_ROLE3_ID_HERE
@@ -34,9 +34,9 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 # --- HELPER FUNCTION (The Core Logic) ---
 async def check_and_assign_roles(member):
-    role1 = member.guild.get_role(ROLE1_ID)
-    role2 = member.guild.get_role(ROLE2_ID)
-    role3 = member.guild.get_role(ROLE3_ID)
+    role1 = member.guild.get_role(1432335813961715742)
+    role2 = member.guild.get_role(1432335885923520666)
+    role3 = member.guild.get_role(1432335932232826920)
 
     if not all([role1, role2, role3]):
         print("Error: One or more roles not found. Check your IDs.")
